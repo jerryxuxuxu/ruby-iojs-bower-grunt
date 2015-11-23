@@ -1,4 +1,4 @@
-FROM turistforeningen/ruby-iojs:onbuild
+FROM turistforeningen/ruby-iojs
 
 MAINTAINER Jerry Zhang <hunterzhangxu@gmail.com>
 
