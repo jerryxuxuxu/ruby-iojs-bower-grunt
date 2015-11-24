@@ -6,6 +6,6 @@ RUN gem install compass
 
 RUN npm install -g bower grunt-cli
 
-WORKDIR /data
+WORKDIR /usr/src/app
 
 CMD ["bash"]
