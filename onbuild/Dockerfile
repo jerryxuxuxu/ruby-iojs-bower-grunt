@@ -1,5 +1,4 @@
-FROM turistforeningen/ruby-iojs
-
+FROM jerryxuxuxu/ruby-iojs-bower-grunt
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
