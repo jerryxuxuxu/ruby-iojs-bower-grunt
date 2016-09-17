@@ -1,11 +1,16 @@
-FROM iojs:onbuild
+FROM turistforeningen/ruby-iojs
 
-MAINTAINER Jerry Zhang <hunterzhangxu@gmail.com>
 
-RUN gem install compass
+	MAINTAINER Jerry Zhang <hunterzhangxu@gmail.com>
 
-RUN npm install -g bower grunt-cli
 
-WORKDIR /data
+	RUN gem install compass
 
-CMD ["bash"]
+
+	RUN npm install -g bower grunt-cli
+
+
+	WORKDIR /data
+
+
+	CMD ["bash"]
